@@ -1,0 +1,125 @@
+* {margin:0;padding:0;box-sizing: border-box;}
+html{height: 100%;}
+body{font-family: PingFangSC-Regular, -apple-system, Helvetica Neue, Roboto, Segoe UI, sans-serif;font-size: 14px;margin: 0 auto;height: 100%;min-height: 100%;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+input{outline:0 none;}
+a, input, div{-webkit-tap-highlight-color: transparent;}
+img, input{border:none;}
+img{width: 100%;max-width: 100%;vertical-align: top;}
+ul, ol, ul li, ol li{list-style:none;}
+i, em{font-style:normal;}
+button, input[type="button"], input[type='submit']{cursor:pointer;}
+a{text-decoration: none;cursor:pointer;}
+a:hover{color:#ec584e;}
+a:focus,button:focus,input:focus {outline: 0}
+
+//清除谷歌自输入框样式
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px #fff inset;}
+
+// 清除ie输入框叉叉与眼睛
+::-ms-clear, ::-ms-reveal{display: none;}
+
+// Correct block display not defined for any HTML5 element in IE 8/9.
+// Correct block display not defined for details or summary in IE 10/11 and Firefox.
+// Correct block display not defined for main in IE 11.
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {display: block;}
+
+// 1. Correct inline-block display not defined in IE 9-.
+audio,
+canvas,
+progress,
+video {
+display: inline-block; // 1
+}
+
+// padding
+.p0{ padding:0; }
+.p5{ padding:5px; }
+.pt5{ padding-top:5px; }
+.pr5{ padding-right:5px; }
+.pb5{ padding-bottom:5px; }
+.pl5{ padding-left:5px; }
+.p10{ padding:10px; }
+.pl10{ padding-left:10px; }
+.pt10{ padding-top:10px; }
+.pr10{ padding-right:10px; }
+.pb10{ padding-bottom:10px; }
+.p15{ padding:15px; }
+.pl15{ padding-left:15px; }
+.pt15{ padding-top:15px; }
+.pr15{ padding-right:15px; }
+.pb15{ padding-bottom:15px; }
+.p20{ padding:20px; }
+.pl20{ padding-left:20px; }
+.pt20{ padding-top:20px; }
+.pr20{ padding-right:20px; }
+.pb20{ padding-bottom:20px; }
+.p30{ padding:30px; }
+.pl30{ padding-left:30px; }
+.pt30{ padding-top:30px; }
+.pr30{ padding-right:30px; }
+.pb30{ padding-bottom:30px; }
+// margin
+.m0{ margin:0; }
+.mt5{ margin-top:5px; }
+.mr5{ margin-right:5px; }
+.mb5{ margin-bottom:5px; }
+.ml5{ margin-left:5px; }
+.mt10{ margin-top:10px; }
+.mr10{ margin-right:10px; }
+.mb10{ margin-bottom:10px; }
+.ml10{ margin-left:10px; }
+.mt15{ margin-top:15px; }
+.mr15{ margin-right:15px; }
+.mb15{ margin-bottom:15px; }
+.ml15{ margin-left:15px; }
+.mt20{ margin-top:20px; }
+.mr20{ margin-right:20px; }
+.mb20{ margin-bottom:20px; }
+.ml20{ margin-left:20px; }
+.mt30{ margin-top:30px; }
+.mr30{ margin-right:30px; }
+.mb30{ margin-bottom:30px; }
+.ml30{ margin-left:30px; }
+.ml100{ margin-left:100px; }
+
+// clearfix
+.left{float:left;}
+.right{float:right;}
+.clearfix {zoom: 1;}
+.clearfix:after{content: ".";display: block;height: 0; clear: both;visibility: hidden;}
+
+// 单行文字溢出虚点显示
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+// flex
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
